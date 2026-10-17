@@ -1,0 +1,487 @@
+{
+  "generated": "2026-10-17 20:01",
+  "legacy": [
+    {
+      "key": "safety_yellow",
+      "name": "Safety yellow",
+      "replaced": [
+        "lead_chrome"
+      ],
+      "by_priority": {
+        "cost": {
+          "recipe": [
+            [
+              "PW6",
+              52.68
+            ],
+            [
+              "PY184",
+              45.72
+            ],
+            [
+              "PY139",
+              1.6
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.6,
+            "A": 0.97,
+            "FL11": 0.57,
+            "LED-B4": 1.19
+          },
+          "pass_probability": 0.88,
+          "cost_pct": 175.9,
+          "carbon_pct": 35.4,
+          "trials": 2,
+          "passed": true
+        },
+        "carbon": {
+          "recipe": [
+            [
+              "PW6",
+              52.26
+            ],
+            [
+              "PY184",
+              46.13
+            ],
+            [
+              "PY139",
+              1.61
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.6,
+            "A": 0.96,
+            "FL11": 0.56,
+            "LED-B4": 1.2
+          },
+          "pass_probability": 0.88,
+          "cost_pct": 177.7,
+          "carbon_pct": 35.6,
+          "trials": 2,
+          "passed": true
+        },
+        "closest": {
+          "recipe": [
+            [
+              "PW6",
+              52.16
+            ],
+            [
+              "PY184",
+              46.23
+            ],
+            [
+              "PY139",
+              1.61
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.6,
+            "A": 0.96,
+            "FL11": 0.56,
+            "LED-B4": 1.21
+          },
+          "pass_probability": 0.88,
+          "cost_pct": 178.2,
+          "carbon_pct": 35.6,
+          "trials": 2,
+          "passed": true
+        }
+      }
+    },
+    {
+      "key": "signal_red",
+      "name": "Signal red",
+      "replaced": [
+        "cadmium_red"
+      ],
+      "by_priority": {
+        "cost": {
+          "recipe": [
+            [
+              "PW6",
+              50.77
+            ],
+            [
+              "PR254",
+              27.46
+            ],
+            [
+              "PO73",
+              15.69
+            ],
+            [
+              "PY42",
+              6.09
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.02,
+            "A": 0.67,
+            "FL11": 0.05,
+            "LED-B4": 0.54
+          },
+          "pass_probability": 0.88,
+          "cost_pct": -59.9,
+          "carbon_pct": 67.9,
+          "trials": 1,
+          "passed": true
+        },
+        "carbon": {
+          "recipe": [
+            [
+              "PW6",
+              47.7
+            ],
+            [
+              "PR254",
+              40.12
+            ],
+            [
+              "PY184",
+              8.74
+            ],
+            [
+              "PY42",
+              3.44
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.01,
+            "A": 1.12,
+            "FL11": 0.61,
+            "LED-B4": 0.89
+          },
+          "pass_probability": 0.76,
+          "cost_pct": -55.8,
+          "carbon_pct": 67.5,
+          "trials": 2,
+          "passed": true
+        },
+        "closest": {
+          "recipe": [
+            [
+              "PW6",
+              47.72
+            ],
+            [
+              "PR254",
+              40.11
+            ],
+            [
+              "PY184",
+              8.71
+            ],
+            [
+              "PY42",
+              3.46
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.01,
+            "A": 1.12,
+            "FL11": 0.6,
+            "LED-B4": 0.9
+          },
+          "pass_probability": 0.76,
+          "cost_pct": -55.9,
+          "carbon_pct": 67.4,
+          "trials": 2,
+          "passed": true
+        }
+      }
+    },
+    {
+      "key": "heritage_green",
+      "name": "Heritage green",
+      "replaced": [
+        "lead_chrome"
+      ],
+      "by_priority": {
+        "cost": {
+          "recipe": [
+            [
+              "PW6",
+              57.65
+            ],
+            [
+              "PY184",
+              27.83
+            ],
+            [
+              "PY42",
+              11.78
+            ],
+            [
+              "PB15:3",
+              2.74
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.01,
+            "A": 0.54,
+            "FL11": 0.82,
+            "LED-B4": 0.68
+          },
+          "pass_probability": 0.82,
+          "cost_pct": 93.7,
+          "carbon_pct": 12.0,
+          "trials": 1,
+          "passed": true
+        },
+        "carbon": {
+          "recipe": [
+            [
+              "PW6",
+              57.86
+            ],
+            [
+              "PY184",
+              27.63
+            ],
+            [
+              "PY42",
+              11.77
+            ],
+            [
+              "PB15:3",
+              2.74
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.03,
+            "A": 0.57,
+            "FL11": 0.79,
+            "LED-B4": 0.68
+          },
+          "pass_probability": 0.82,
+          "cost_pct": 92.9,
+          "carbon_pct": 11.9,
+          "trials": 1,
+          "passed": true
+        },
+        "closest": {
+          "recipe": [
+            [
+              "PW6",
+              54.96
+            ],
+            [
+              "PY184",
+              40.53
+            ],
+            [
+              "PB15:3",
+              2.28
+            ],
+            [
+              "PO73",
+              2.22
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.01,
+            "A": 1.25,
+            "FL11": 0.33,
+            "LED-B4": 1.62
+          },
+          "pass_probability": 0.71,
+          "cost_pct": 163.8,
+          "carbon_pct": 28.5,
+          "trials": 2,
+          "passed": true
+        }
+      }
+    },
+    {
+      "key": "cobalt_sky",
+      "name": "Cobalt sky",
+      "replaced": [
+        "cobalt_blue"
+      ],
+      "by_priority": {
+        "cost": {
+          "recipe": [
+            [
+              "PW6",
+              93.99
+            ],
+            [
+              "PB29",
+              5.73
+            ],
+            [
+              "PB15:3",
+              0.28
+            ]
+          ],
+          "viable": false,
+          "de": {
+            "D65": 0.37,
+            "A": 4.16,
+            "FL11": 5.59,
+            "LED-B4": 2.71
+          },
+          "pass_probability": 0.0,
+          "cost_pct": -54.4,
+          "carbon_pct": -13.2,
+          "trials": 6,
+          "passed": false
+        },
+        "carbon": {
+          "recipe": [
+            [
+              "PW6",
+              93.98
+            ],
+            [
+              "PB29",
+              5.73
+            ],
+            [
+              "PB15:3",
+              0.28
+            ]
+          ],
+          "viable": false,
+          "de": {
+            "D65": 0.37,
+            "A": 4.16,
+            "FL11": 5.58,
+            "LED-B4": 2.71
+          },
+          "pass_probability": 0.0,
+          "cost_pct": -54.4,
+          "carbon_pct": -13.2,
+          "trials": 6,
+          "passed": false
+        },
+        "closest": {
+          "recipe": [
+            [
+              "PW6",
+              93.98
+            ],
+            [
+              "PB29",
+              5.73
+            ],
+            [
+              "PB15:3",
+              0.28
+            ]
+          ],
+          "viable": false,
+          "de": {
+            "D65": 0.37,
+            "A": 4.16,
+            "FL11": 5.58,
+            "LED-B4": 2.71
+          },
+          "pass_probability": 0.0,
+          "cost_pct": -54.4,
+          "carbon_pct": -13.2,
+          "trials": 6,
+          "passed": false
+        }
+      }
+    }
+  ],
+  "groups": {
+    "customer samples": {
+      "summary": {
+        "targets": 40,
+        "reachable": 40,
+        "search": {
+          "ai_found_when_reachable": 1.0,
+          "ai_sets": 25.0,
+          "all_sets": 575.0,
+          "ai_seconds": 0.33,
+          "all_seconds": 7.76,
+          "same_or_fewer_pigments": 0.8
+        },
+        "pigments": {
+          "chosen": 2.35,
+          "closest": 2.9,
+          "original": 2.8,
+          "fewer_than_original": 0.45,
+          "cost_change_pct": 1.74,
+          "carbon_change_pct": -1.18
+        },
+        "trials": {
+          "physics": {
+            "label": "Physics, calibrated",
+            "mean_trials": 2.27,
+            "first_shot_pass": 0.5,
+            "pass_within_3": 0.85
+          },
+          "hybrid": {
+            "label": "Physics + ML",
+            "mean_trials": 1.73,
+            "first_shot_pass": 0.6,
+            "pass_within_3": 0.925
+          },
+          "tuned": {
+            "label": "Physics + ML, tuned",
+            "mean_trials": 1.38,
+            "first_shot_pass": 0.85,
+            "pass_within_3": 0.925
+          }
+        }
+      }
+    },
+    "ColorChecker": {
+      "summary": {
+        "targets": 24,
+        "reachable": 23,
+        "search": {
+          "ai_found_when_reachable": 0.957,
+          "ai_sets": 39.29,
+          "all_sets": 575.0,
+          "ai_seconds": 0.48,
+          "all_seconds": 6.75,
+          "same_or_fewer_pigments": 0.955
+        },
+        "pigments": {
+          "chosen": 2.45,
+          "closest": 2.95,
+          "original": NaN,
+          "fewer_than_original": null,
+          "cost_change_pct": -21.82,
+          "carbon_change_pct": -8.89
+        },
+        "trials": {
+          "physics": {
+            "label": "Physics, calibrated",
+            "mean_trials": 2.22,
+            "first_shot_pass": 0.174,
+            "pass_within_3": 0.957
+          },
+          "hybrid": {
+            "label": "Physics + ML",
+            "mean_trials": 1.83,
+            "first_shot_pass": 0.261,
+            "pass_within_3": 1.0
+          },
+          "tuned": {
+            "label": "Physics + ML, tuned",
+            "mean_trials": 1.57,
+            "first_shot_pass": 0.435,
+            "pass_within_3": 1.0
+          }
+        }
+      }
+    }
+  }
+}

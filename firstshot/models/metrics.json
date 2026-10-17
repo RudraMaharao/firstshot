@@ -1,0 +1,59 @@
+{
+  "trained_at": "2026-10-17 18:46",
+  "history_panels": 14000,
+  "ensemble_members": 5,
+  "calibration_panels": 15,
+  "unseen_pigment_sets_cv": [
+    {
+      "physics": {
+        "median": 0.783,
+        "p90": 3.111,
+        "within_1": 0.633
+      },
+      "hybrid": {
+        "median": 0.253,
+        "p90": 1.008,
+        "within_1": 0.898
+      }
+    },
+    {
+      "physics": {
+        "median": 0.751,
+        "p90": 3.038,
+        "within_1": 0.617
+      },
+      "hybrid": {
+        "median": 0.254,
+        "p90": 1.099,
+        "within_1": 0.883
+      }
+    }
+  ],
+  "current_lot_test": {
+    "physics_uncalibrated": {
+      "median": 0.815,
+      "p90": 3.551,
+      "within_1": 0.561
+    },
+    "physics_calibrated": {
+      "median": 0.715,
+      "p90": 3.046,
+      "within_1": 0.67
+    },
+    "hybrid_untuned": {
+      "median": 0.736,
+      "p90": 1.696,
+      "within_1": 0.695
+    },
+    "hybrid_tuned": {
+      "median": 0.246,
+      "p90": 0.883,
+      "within_1": 0.923
+    }
+  },
+  "shortlist_top5_recall": {
+    "from_lab": 0.48,
+    "from_spectrum": 0.819
+  },
+  "minutes": 2.0
+}

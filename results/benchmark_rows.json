@@ -1,0 +1,3179 @@
+{
+  "generated": "2026-10-17 20:01",
+  "groups": {
+    "customer samples": {
+      "summary": {
+        "targets": 40,
+        "reachable": 40,
+        "search": {
+          "ai_found_when_reachable": 1.0,
+          "ai_sets": 25.0,
+          "all_sets": 575.0,
+          "ai_seconds": 0.33,
+          "all_seconds": 7.76,
+          "same_or_fewer_pigments": 0.8
+        },
+        "pigments": {
+          "chosen": 2.35,
+          "closest": 2.9,
+          "original": 2.8,
+          "fewer_than_original": 0.45,
+          "cost_change_pct": 1.74,
+          "carbon_change_pct": -1.18
+        },
+        "trials": {
+          "physics": {
+            "label": "Physics, calibrated",
+            "mean_trials": 2.27,
+            "first_shot_pass": 0.5,
+            "pass_within_3": 0.85
+          },
+          "hybrid": {
+            "label": "Physics + ML",
+            "mean_trials": 1.73,
+            "first_shot_pass": 0.6,
+            "pass_within_3": 0.925
+          },
+          "tuned": {
+            "label": "Physics + ML, tuned",
+            "mean_trials": 1.38,
+            "first_shot_pass": 0.85,
+            "pass_within_3": 0.925
+          }
+        }
+      },
+      "rows": [
+        {
+          "target": "sample 1",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.03,
+            "sets": 25,
+            "seconds": 0.343,
+            "cost": 1.145,
+            "carbon": 3.038
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.5,
+            "sets": 575,
+            "seconds": 7.114
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.176,
+            "carbon": 3.112
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.03
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.75
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.5
+            }
+          }
+        },
+        {
+          "target": "sample 2",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.31,
+            "sets": 25,
+            "seconds": 0.321,
+            "cost": 1.748,
+            "carbon": 3.445
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.31,
+            "sets": 575,
+            "seconds": 7.45
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 0.967,
+            "carbon": 1.445
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.46
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.13
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.84
+            }
+          }
+        },
+        {
+          "target": "sample 3",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.6,
+            "sets": 25,
+            "seconds": 0.303,
+            "cost": 1.229,
+            "carbon": 3.152
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.6,
+            "sets": 575,
+            "seconds": 7.178
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.357,
+            "carbon": 3.059
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 0.98
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.94
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.85
+            }
+          }
+        },
+        {
+          "target": "sample 4",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.02,
+            "sets": 25,
+            "seconds": 0.326,
+            "cost": 1.048,
+            "carbon": 3.013
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.03,
+            "sets": 575,
+            "seconds": 8.557
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.107,
+            "carbon": 3.051
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.63
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.34
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.18
+            }
+          }
+        },
+        {
+          "target": "sample 5",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.01,
+            "sets": 25,
+            "seconds": 0.392,
+            "cost": 1.031,
+            "carbon": 3.0
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.7,
+            "sets": 575,
+            "seconds": 8.32
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.002,
+            "carbon": 2.989
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.6
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.97
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.25
+            }
+          }
+        },
+        {
+          "target": "sample 6",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.36,
+            "sets": 25,
+            "seconds": 0.341,
+            "cost": 2.955,
+            "carbon": 4.053
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.82,
+            "sets": 575,
+            "seconds": 7.562
+          },
+          "closest": {
+            "colorants": 2,
+            "cost": 3.294,
+            "carbon": 4.302
+          },
+          "original_colorants": 2,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 2.4
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.12
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.39
+            }
+          }
+        },
+        {
+          "target": "sample 7",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.02,
+            "sets": 25,
+            "seconds": 0.311,
+            "cost": 1.246,
+            "carbon": 3.128
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.02,
+            "sets": 575,
+            "seconds": 7.597
+          },
+          "closest": {
+            "colorants": 2,
+            "cost": 1.246,
+            "carbon": 3.128
+          },
+          "original_colorants": 2,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.55
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.57
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.31
+            }
+          }
+        },
+        {
+          "target": "sample 8",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.04,
+            "sets": 25,
+            "seconds": 0.352,
+            "cost": 1.153,
+            "carbon": 3.03
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.33,
+            "sets": 575,
+            "seconds": 11.199
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.189,
+            "carbon": 3.063
+          },
+          "original_colorants": 2,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.89
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.41
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.28
+            }
+          }
+        },
+        {
+          "target": "sample 9",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.2,
+            "sets": 25,
+            "seconds": 0.342,
+            "cost": 1.069,
+            "carbon": 3.062
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.2,
+            "sets": 575,
+            "seconds": 7.035
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.084,
+            "carbon": 3.067
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.78
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.68
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.16
+            }
+          }
+        },
+        {
+          "target": "sample 10",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.1,
+            "sets": 25,
+            "seconds": 0.33,
+            "cost": 1.199,
+            "carbon": 3.053
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.19,
+            "sets": 575,
+            "seconds": 8.195
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.013,
+            "carbon": 2.994
+          },
+          "original_colorants": 2,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.88
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.33
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.41
+            }
+          }
+        },
+        {
+          "target": "sample 11",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.01,
+            "sets": 25,
+            "seconds": 0.339,
+            "cost": 7.067,
+            "carbon": 4.608
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.69,
+            "sets": 575,
+            "seconds": 7.341
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 7.535,
+            "carbon": 4.822
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 6,
+              "passed": false,
+              "first_de": 8.68
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.6
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.53
+            }
+          }
+        },
+        {
+          "target": "sample 12",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.67,
+            "sets": 25,
+            "seconds": 0.289,
+            "cost": 1.809,
+            "carbon": 3.094
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.67,
+            "sets": 575,
+            "seconds": 9.666
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.833,
+            "carbon": 3.614
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.67
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.69
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.59
+            }
+          }
+        },
+        {
+          "target": "sample 13",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.02,
+            "sets": 25,
+            "seconds": 0.352,
+            "cost": 1.358,
+            "carbon": 3.002
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.1,
+            "sets": 575,
+            "seconds": 8.055
+          },
+          "closest": {
+            "colorants": 2,
+            "cost": 1.358,
+            "carbon": 3.002
+          },
+          "original_colorants": 2,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.13
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.22
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.28
+            }
+          }
+        },
+        {
+          "target": "sample 14",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.02,
+            "sets": 25,
+            "seconds": 0.585,
+            "cost": 1.224,
+            "carbon": 3.014
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.81,
+            "sets": 575,
+            "seconds": 7.145
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.024,
+            "carbon": 2.893
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.94
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.42
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.3
+            }
+          }
+        },
+        {
+          "target": "sample 15",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.06,
+            "sets": 25,
+            "seconds": 0.31,
+            "cost": 1.026,
+            "carbon": 3.022
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.06,
+            "sets": 575,
+            "seconds": 6.654
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.114,
+            "carbon": 3.082
+          },
+          "original_colorants": 2,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.37
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.6
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.37
+            }
+          }
+        },
+        {
+          "target": "sample 16",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.04,
+            "sets": 25,
+            "seconds": 0.307,
+            "cost": 1.025,
+            "carbon": 2.996
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.03,
+            "sets": 575,
+            "seconds": 6.875
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.017,
+            "carbon": 3.004
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.92
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.64
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.18
+            }
+          }
+        },
+        {
+          "target": "sample 17",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.04,
+            "sets": 25,
+            "seconds": 0.325,
+            "cost": 5.476,
+            "carbon": 4.174
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.04,
+            "sets": 575,
+            "seconds": 6.934
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.04,
+            "carbon": 2.981
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 6,
+              "passed": false,
+              "first_de": 5.06
+            },
+            "hybrid": {
+              "trials": 6,
+              "passed": false,
+              "first_de": 1.46
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.81
+            }
+          }
+        },
+        {
+          "target": "sample 18",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.02,
+            "sets": 25,
+            "seconds": 0.315,
+            "cost": 1.122,
+            "carbon": 3.037
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.03,
+            "sets": 575,
+            "seconds": 7.041
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.163,
+            "carbon": 3.064
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.73
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.49
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.2
+            }
+          }
+        },
+        {
+          "target": "sample 19",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.04,
+            "sets": 25,
+            "seconds": 0.357,
+            "cost": 1.27,
+            "carbon": 2.505
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.05,
+            "sets": 575,
+            "seconds": 6.724
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 2.391,
+            "carbon": 3.386
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 6,
+              "passed": false,
+              "first_de": 2.07
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 3.75
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.92
+            }
+          }
+        },
+        {
+          "target": "sample 20",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.05,
+            "sets": 25,
+            "seconds": 0.315,
+            "cost": 0.961,
+            "carbon": 2.786
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.22,
+            "sets": 575,
+            "seconds": 6.796
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.235,
+            "carbon": 2.914
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.48
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.92
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.52
+            }
+          }
+        },
+        {
+          "target": "sample 21",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.38,
+            "sets": 25,
+            "seconds": 0.295,
+            "cost": 1.809,
+            "carbon": 3.49
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.38,
+            "sets": 575,
+            "seconds": 7.097
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 4.72,
+            "carbon": 3.871
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 3,
+              "passed": true,
+              "first_de": 1.82
+            },
+            "hybrid": {
+              "trials": 4,
+              "passed": true,
+              "first_de": 2.06
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.69
+            }
+          }
+        },
+        {
+          "target": "sample 22",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.6,
+            "sets": 25,
+            "seconds": 0.329,
+            "cost": 1.108,
+            "carbon": 3.069
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.1,
+            "sets": 575,
+            "seconds": 7.418
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.1,
+            "carbon": 3.017
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.02
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.04
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.49
+            }
+          }
+        },
+        {
+          "target": "sample 23",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.01,
+            "sets": 25,
+            "seconds": 0.307,
+            "cost": 1.658,
+            "carbon": 2.083
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.66,
+            "sets": 575,
+            "seconds": 7.21
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 5.162,
+            "carbon": 5.161
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 6,
+              "passed": false,
+              "first_de": 5.34
+            },
+            "hybrid": {
+              "trials": 6,
+              "passed": false,
+              "first_de": 6.12
+            },
+            "tuned": {
+              "trials": 5,
+              "passed": true,
+              "first_de": 4.19
+            }
+          }
+        },
+        {
+          "target": "sample 24",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.49,
+            "sets": 25,
+            "seconds": 0.316,
+            "cost": 3.29,
+            "carbon": 4.106
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.58,
+            "sets": 575,
+            "seconds": 6.881
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 6.155,
+            "carbon": 5.593
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 8.41
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.24
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.35
+            }
+          }
+        },
+        {
+          "target": "sample 25",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.56,
+            "sets": 25,
+            "seconds": 0.306,
+            "cost": 1.314,
+            "carbon": 2.852
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.36,
+            "sets": 575,
+            "seconds": 8.058
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 0.741,
+            "carbon": 1.676
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.26
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.81
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.33
+            }
+          }
+        },
+        {
+          "target": "sample 26",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.56,
+            "sets": 25,
+            "seconds": 0.324,
+            "cost": 3.161,
+            "carbon": 4.402
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.56,
+            "sets": 575,
+            "seconds": 7.276
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 7.721,
+            "carbon": 5.825
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 2.26
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.52
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 2.17
+            }
+          }
+        },
+        {
+          "target": "sample 27",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.43,
+            "sets": 25,
+            "seconds": 0.294,
+            "cost": 2.895,
+            "carbon": 4.299
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.83,
+            "sets": 575,
+            "seconds": 7.227
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 2.644,
+            "carbon": 4.073
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.82
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.67
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.5
+            }
+          }
+        },
+        {
+          "target": "sample 28",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.35,
+            "sets": 25,
+            "seconds": 0.343,
+            "cost": 1.036,
+            "carbon": 2.979
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.92,
+            "sets": 575,
+            "seconds": 7.132
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.03,
+            "carbon": 2.999
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.31
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.94
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.34
+            }
+          }
+        },
+        {
+          "target": "sample 29",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.2,
+            "sets": 25,
+            "seconds": 0.31,
+            "cost": 1.032,
+            "carbon": 2.976
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.2,
+            "sets": 575,
+            "seconds": 16.168
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.16,
+            "carbon": 2.548
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.37
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.97
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.44
+            }
+          }
+        },
+        {
+          "target": "sample 30",
+          "ai": {
+            "viable": true,
+            "colorants": 1,
+            "de": 0.6,
+            "sets": 25,
+            "seconds": 0.554,
+            "cost": 1.814,
+            "carbon": 3.75
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 1,
+            "de": 0.63,
+            "sets": 575,
+            "seconds": 13.809
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.79,
+            "carbon": 3.697
+          },
+          "original_colorants": 2,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.86
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.98
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.85
+            }
+          }
+        },
+        {
+          "target": "sample 31",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.71,
+            "sets": 25,
+            "seconds": 0.281,
+            "cost": 1.081,
+            "carbon": 3.016
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.71,
+            "sets": 575,
+            "seconds": 7.151
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.049,
+            "carbon": 3.006
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.11
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.83
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.74
+            }
+          }
+        },
+        {
+          "target": "sample 32",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.1,
+            "sets": 25,
+            "seconds": 0.307,
+            "cost": 0.999,
+            "carbon": 2.985
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.1,
+            "sets": 575,
+            "seconds": 7.0
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.009,
+            "carbon": 2.992
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.02
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.1
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.15
+            }
+          }
+        },
+        {
+          "target": "sample 33",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.05,
+            "sets": 25,
+            "seconds": 0.316,
+            "cost": 1.152,
+            "carbon": 1.518
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.04,
+            "sets": 575,
+            "seconds": 6.567
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 4.397,
+            "carbon": 4.65
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 6,
+              "passed": false,
+              "first_de": 5.57
+            },
+            "hybrid": {
+              "trials": 3,
+              "passed": true,
+              "first_de": 1.56
+            },
+            "tuned": {
+              "trials": 5,
+              "passed": true,
+              "first_de": 3.95
+            }
+          }
+        },
+        {
+          "target": "sample 34",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.02,
+            "sets": 25,
+            "seconds": 0.305,
+            "cost": 1.316,
+            "carbon": 1.791
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.13,
+            "sets": 575,
+            "seconds": 7.254
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 4.121,
+            "carbon": 4.226
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 3.15
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.8
+            },
+            "tuned": {
+              "trials": 5,
+              "passed": true,
+              "first_de": 3.44
+            }
+          }
+        },
+        {
+          "target": "sample 35",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.79,
+            "sets": 25,
+            "seconds": 0.332,
+            "cost": 1.019,
+            "carbon": 3.002
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.67,
+            "sets": 575,
+            "seconds": 6.988
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.07,
+            "carbon": 3.017
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 0.95
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.27
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.75
+            }
+          }
+        },
+        {
+          "target": "sample 36",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.01,
+            "sets": 25,
+            "seconds": 0.307,
+            "cost": 1.14,
+            "carbon": 3.104
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.01,
+            "sets": 575,
+            "seconds": 6.908
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.189,
+            "carbon": 3.165
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.97
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.1
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.27
+            }
+          }
+        },
+        {
+          "target": "sample 37",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.04,
+            "sets": 25,
+            "seconds": 0.294,
+            "cost": 1.027,
+            "carbon": 3.018
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.68,
+            "sets": 575,
+            "seconds": 6.808
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.152,
+            "carbon": 3.065
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.73
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.56
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.3
+            }
+          }
+        },
+        {
+          "target": "sample 38",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.66,
+            "sets": 25,
+            "seconds": 0.334,
+            "cost": 1.539,
+            "carbon": 3.054
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.7,
+            "sets": 575,
+            "seconds": 6.915
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 2.11,
+            "carbon": 3.59
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.25
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.92
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.75
+            }
+          }
+        },
+        {
+          "target": "sample 39",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.0,
+            "sets": 25,
+            "seconds": 0.296,
+            "cost": 7.264,
+            "carbon": 5.787
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.04,
+            "sets": 575,
+            "seconds": 6.749
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 8.645,
+            "carbon": 5.964
+          },
+          "original_colorants": 3,
+          "trials": {
+            "physics": {
+              "trials": 6,
+              "passed": false,
+              "first_de": 1.59
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.98
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.33
+            }
+          }
+        },
+        {
+          "target": "sample 40",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.06,
+            "sets": 25,
+            "seconds": 0.322,
+            "cost": 1.419,
+            "carbon": 3.119
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.23,
+            "sets": 575,
+            "seconds": 6.422
+          },
+          "closest": {
+            "colorants": 2,
+            "cost": 1.419,
+            "carbon": 3.119
+          },
+          "original_colorants": 2,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.43
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.83
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.33
+            }
+          }
+        }
+      ]
+    },
+    "ColorChecker": {
+      "summary": {
+        "targets": 24,
+        "reachable": 23,
+        "search": {
+          "ai_found_when_reachable": 0.957,
+          "ai_sets": 39.29,
+          "all_sets": 575.0,
+          "ai_seconds": 0.48,
+          "all_seconds": 6.75,
+          "same_or_fewer_pigments": 0.955
+        },
+        "pigments": {
+          "chosen": 2.45,
+          "closest": 2.95,
+          "original": NaN,
+          "fewer_than_original": null,
+          "cost_change_pct": -21.82,
+          "carbon_change_pct": -8.89
+        },
+        "trials": {
+          "physics": {
+            "label": "Physics, calibrated",
+            "mean_trials": 2.22,
+            "first_shot_pass": 0.174,
+            "pass_within_3": 0.957
+          },
+          "hybrid": {
+            "label": "Physics + ML",
+            "mean_trials": 1.83,
+            "first_shot_pass": 0.261,
+            "pass_within_3": 1.0
+          },
+          "tuned": {
+            "label": "Physics + ML, tuned",
+            "mean_trials": 1.57,
+            "first_shot_pass": 0.435,
+            "pass_within_3": 1.0
+          }
+        }
+      },
+      "rows": [
+        {
+          "target": "dark skin",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.02,
+            "sets": 25,
+            "seconds": 0.288,
+            "cost": 2.126,
+            "carbon": 2.406
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.6,
+            "sets": 575,
+            "seconds": 6.438
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.978,
+            "carbon": 2.159
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 6.13
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 5.3
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 3.09
+            }
+          }
+        },
+        {
+          "target": "light skin",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.05,
+            "sets": 25,
+            "seconds": 0.316,
+            "cost": 1.287,
+            "carbon": 2.824
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.06,
+            "sets": 575,
+            "seconds": 6.462
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.504,
+            "carbon": 3.266
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.35
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.23
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 0.31
+            }
+          }
+        },
+        {
+          "target": "blue sky",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.03,
+            "sets": 25,
+            "seconds": 0.285,
+            "cost": 1.236,
+            "carbon": 2.713
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.03,
+            "sets": 575,
+            "seconds": 6.601
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 4.782,
+            "carbon": 4.11
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.66
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 3.24
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.15
+            }
+          }
+        },
+        {
+          "target": "foliage",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.01,
+            "sets": 25,
+            "seconds": 0.297,
+            "cost": 3.216,
+            "carbon": 3.688
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.03,
+            "sets": 575,
+            "seconds": 6.767
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 3.475,
+            "carbon": 3.574
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 3,
+              "passed": true,
+              "first_de": 5.29
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.55
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 2.65
+            }
+          }
+        },
+        {
+          "target": "blue flower",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.52,
+            "sets": 25,
+            "seconds": 0.306,
+            "cost": 1.178,
+            "carbon": 2.81
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.52,
+            "sets": 575,
+            "seconds": 6.306
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.451,
+            "carbon": 2.977
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.11
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.97
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.86
+            }
+          }
+        },
+        {
+          "target": "bluish green",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.32,
+            "sets": 25,
+            "seconds": 0.306,
+            "cost": 1.04,
+            "carbon": 2.995
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.34,
+            "sets": 575,
+            "seconds": 6.557
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.044,
+            "carbon": 2.997
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.67
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.74
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.49
+            }
+          }
+        },
+        {
+          "target": "orange",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.03,
+            "sets": 25,
+            "seconds": 0.301,
+            "cost": 3.484,
+            "carbon": 3.85
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.02,
+            "sets": 575,
+            "seconds": 6.764
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 3.734,
+            "carbon": 4.359
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 3.33
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 0.99
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.7
+            }
+          }
+        },
+        {
+          "target": "purplish blue",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.01,
+            "sets": 129,
+            "seconds": 1.552,
+            "cost": 1.611,
+            "carbon": 2.63
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.02,
+            "sets": 575,
+            "seconds": 6.463
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 9.787,
+            "carbon": 5.634
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 3,
+              "passed": true,
+              "first_de": 3.15
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 2.42
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.85
+            }
+          }
+        },
+        {
+          "target": "moderate red",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.05,
+            "sets": 25,
+            "seconds": 0.308,
+            "cost": 2.801,
+            "carbon": 3.933
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.02,
+            "sets": 575,
+            "seconds": 6.479
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 3.846,
+            "carbon": 4.647
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.67
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.99
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.66
+            }
+          }
+        },
+        {
+          "target": "purple",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.02,
+            "sets": 25,
+            "seconds": 0.273,
+            "cost": 5.217,
+            "carbon": 5.653
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.02,
+            "sets": 575,
+            "seconds": 6.717
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 8.699,
+            "carbon": 6.369
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 3.67
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.75
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.44
+            }
+          }
+        },
+        {
+          "target": "yellow green",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.23,
+            "sets": 92,
+            "seconds": 1.14,
+            "cost": 2.709,
+            "carbon": 3.817
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.32,
+            "sets": 575,
+            "seconds": 6.379
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 3.525,
+            "carbon": 3.805
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 6,
+              "passed": false,
+              "first_de": 7.81
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.33
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.48
+            }
+          }
+        },
+        {
+          "target": "orange yellow",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.04,
+            "sets": 25,
+            "seconds": 0.302,
+            "cost": 3.194,
+            "carbon": 4.012
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.84,
+            "sets": 575,
+            "seconds": 6.531
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 4.52,
+            "carbon": 4.876
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 2.17
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 0.99
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.51
+            }
+          }
+        },
+        {
+          "target": "blue",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.54,
+            "sets": 25,
+            "seconds": 0.315,
+            "cost": 2.482,
+            "carbon": 3.49
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.54,
+            "sets": 575,
+            "seconds": 6.529
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 2.34,
+            "carbon": 2.933
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.18
+            },
+            "hybrid": {
+              "trials": 3,
+              "passed": true,
+              "first_de": 1.74
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.15
+            }
+          }
+        },
+        {
+          "target": "green",
+          "ai": {
+            "viable": false,
+            "colorants": 3,
+            "de": 0.05,
+            "sets": 92,
+            "seconds": 1.031,
+            "cost": 2.862,
+            "carbon": 3.889
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.46,
+            "sets": 575,
+            "seconds": 6.66
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 4.266,
+            "carbon": 3.932
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 3,
+              "passed": true,
+              "first_de": 7.29
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.92
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.81
+            }
+          }
+        },
+        {
+          "target": "red",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.08,
+            "sets": 25,
+            "seconds": 0.319,
+            "cost": 4.917,
+            "carbon": 5.153
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.03,
+            "sets": 575,
+            "seconds": 6.388
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 7.018,
+            "carbon": 6.291
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 3,
+              "passed": true,
+              "first_de": 5.91
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.46
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.09
+            }
+          }
+        },
+        {
+          "target": "yellow",
+          "ai": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.03,
+            "sets": 92,
+            "seconds": 1.074,
+            "cost": 3.877,
+            "carbon": 4.014
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 3,
+            "de": 0.02,
+            "sets": 575,
+            "seconds": 6.785
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 3.023,
+            "carbon": 3.962
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 3.98
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.64
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.79
+            }
+          }
+        },
+        {
+          "target": "magenta",
+          "ai": {
+            "viable": false,
+            "colorants": 2,
+            "de": 1.55,
+            "sets": 63,
+            "seconds": 1.015,
+            "cost": 2.558,
+            "carbon": 4.093
+          },
+          "exhaustive": {
+            "viable": false,
+            "colorants": 2,
+            "de": 1.55,
+            "sets": 575,
+            "seconds": 6.677
+          },
+          "closest": {
+            "colorants": 2,
+            "cost": 2.556,
+            "carbon": 4.092
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 6,
+              "passed": false,
+              "first_de": 1.67
+            },
+            "hybrid": {
+              "trials": 6,
+              "passed": false,
+              "first_de": 1.64
+            },
+            "tuned": {
+              "trials": 6,
+              "passed": false,
+              "first_de": 1.61
+            }
+          }
+        },
+        {
+          "target": "cyan",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.41,
+            "sets": 25,
+            "seconds": 0.353,
+            "cost": 1.096,
+            "carbon": 2.993
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.41,
+            "sets": 575,
+            "seconds": 6.88
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.504,
+            "carbon": 3.203
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.83
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.29
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.33
+            }
+          }
+        },
+        {
+          "target": "white 9.5 (.05 D)",
+          "ai": {
+            "viable": true,
+            "colorants": 1,
+            "de": 0.62,
+            "sets": 25,
+            "seconds": 0.296,
+            "cost": 1.0,
+            "carbon": 3.0
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 1,
+            "de": 0.62,
+            "sets": 575,
+            "seconds": 7.203
+          },
+          "closest": {
+            "colorants": 2,
+            "cost": 1.0,
+            "carbon": 2.999
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.6
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.58
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.57
+            }
+          }
+        },
+        {
+          "target": "neutral 8 (.23 D)",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.5,
+            "sets": 25,
+            "seconds": 0.304,
+            "cost": 1.0,
+            "carbon": 2.995
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.83,
+            "sets": 575,
+            "seconds": 7.291
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.137,
+            "carbon": 3.048
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.61
+            },
+            "hybrid": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.64
+            },
+            "tuned": {
+              "trials": 1,
+              "passed": true,
+              "first_de": 0.6
+            }
+          }
+        },
+        {
+          "target": "neutral 6.5 (.44 D)",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.9,
+            "sets": 25,
+            "seconds": 0.338,
+            "cost": 1.0,
+            "carbon": 2.979
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.9,
+            "sets": 575,
+            "seconds": 8.243
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.261,
+            "carbon": 3.025
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.27
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.4
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.21
+            }
+          }
+        },
+        {
+          "target": "neutral 5 (.70 D)",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.9,
+            "sets": 25,
+            "seconds": 0.274,
+            "cost": 0.999,
+            "carbon": 2.915
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.9,
+            "sets": 575,
+            "seconds": 7.257
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.793,
+            "carbon": 3.139
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.32
+            },
+            "hybrid": {
+              "trials": 3,
+              "passed": true,
+              "first_de": 1.69
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.33
+            }
+          }
+        },
+        {
+          "target": "neutral 3.5 (1.05 D)",
+          "ai": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.86,
+            "sets": 25,
+            "seconds": 0.322,
+            "cost": 1.014,
+            "carbon": 2.743
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 2,
+            "de": 0.11,
+            "sets": 575,
+            "seconds": 6.913
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 1.484,
+            "carbon": 2.9
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.37
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.36
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.33
+            }
+          }
+        },
+        {
+          "target": "black 2 (1.5 D)",
+          "ai": {
+            "viable": true,
+            "colorants": 1,
+            "de": 0.79,
+            "sets": 25,
+            "seconds": 0.288,
+            "cost": 1.6,
+            "carbon": 2.5
+          },
+          "exhaustive": {
+            "viable": true,
+            "colorants": 1,
+            "de": 0.79,
+            "sets": 575,
+            "seconds": 6.74
+          },
+          "closest": {
+            "colorants": 3,
+            "cost": 2.317,
+            "carbon": 3.467
+          },
+          "original_colorants": null,
+          "trials": {
+            "physics": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.57
+            },
+            "hybrid": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.71
+            },
+            "tuned": {
+              "trials": 2,
+              "passed": true,
+              "first_de": 1.71
+            }
+          }
+        }
+      ]
+    }
+  },
+  "legacy": [
+    {
+      "key": "safety_yellow",
+      "name": "Safety yellow",
+      "replaced": [
+        "lead_chrome"
+      ],
+      "by_priority": {
+        "cost": {
+          "recipe": [
+            [
+              "PW6",
+              52.68
+            ],
+            [
+              "PY184",
+              45.72
+            ],
+            [
+              "PY139",
+              1.6
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.6,
+            "A": 0.97,
+            "FL11": 0.57,
+            "LED-B4": 1.19
+          },
+          "pass_probability": 0.88,
+          "cost_pct": 175.9,
+          "carbon_pct": 35.4,
+          "trials": 2,
+          "passed": true
+        },
+        "carbon": {
+          "recipe": [
+            [
+              "PW6",
+              52.26
+            ],
+            [
+              "PY184",
+              46.13
+            ],
+            [
+              "PY139",
+              1.61
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.6,
+            "A": 0.96,
+            "FL11": 0.56,
+            "LED-B4": 1.2
+          },
+          "pass_probability": 0.88,
+          "cost_pct": 177.7,
+          "carbon_pct": 35.6,
+          "trials": 2,
+          "passed": true
+        },
+        "closest": {
+          "recipe": [
+            [
+              "PW6",
+              52.16
+            ],
+            [
+              "PY184",
+              46.23
+            ],
+            [
+              "PY139",
+              1.61
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.6,
+            "A": 0.96,
+            "FL11": 0.56,
+            "LED-B4": 1.21
+          },
+          "pass_probability": 0.88,
+          "cost_pct": 178.2,
+          "carbon_pct": 35.6,
+          "trials": 2,
+          "passed": true
+        }
+      }
+    },
+    {
+      "key": "signal_red",
+      "name": "Signal red",
+      "replaced": [
+        "cadmium_red"
+      ],
+      "by_priority": {
+        "cost": {
+          "recipe": [
+            [
+              "PW6",
+              50.77
+            ],
+            [
+              "PR254",
+              27.46
+            ],
+            [
+              "PO73",
+              15.69
+            ],
+            [
+              "PY42",
+              6.09
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.02,
+            "A": 0.67,
+            "FL11": 0.05,
+            "LED-B4": 0.54
+          },
+          "pass_probability": 0.88,
+          "cost_pct": -59.9,
+          "carbon_pct": 67.9,
+          "trials": 1,
+          "passed": true
+        },
+        "carbon": {
+          "recipe": [
+            [
+              "PW6",
+              47.7
+            ],
+            [
+              "PR254",
+              40.12
+            ],
+            [
+              "PY184",
+              8.74
+            ],
+            [
+              "PY42",
+              3.44
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.01,
+            "A": 1.12,
+            "FL11": 0.61,
+            "LED-B4": 0.89
+          },
+          "pass_probability": 0.76,
+          "cost_pct": -55.8,
+          "carbon_pct": 67.5,
+          "trials": 2,
+          "passed": true
+        },
+        "closest": {
+          "recipe": [
+            [
+              "PW6",
+              47.72
+            ],
+            [
+              "PR254",
+              40.11
+            ],
+            [
+              "PY184",
+              8.71
+            ],
+            [
+              "PY42",
+              3.46
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.01,
+            "A": 1.12,
+            "FL11": 0.6,
+            "LED-B4": 0.9
+          },
+          "pass_probability": 0.76,
+          "cost_pct": -55.9,
+          "carbon_pct": 67.4,
+          "trials": 2,
+          "passed": true
+        }
+      }
+    },
+    {
+      "key": "heritage_green",
+      "name": "Heritage green",
+      "replaced": [
+        "lead_chrome"
+      ],
+      "by_priority": {
+        "cost": {
+          "recipe": [
+            [
+              "PW6",
+              57.65
+            ],
+            [
+              "PY184",
+              27.83
+            ],
+            [
+              "PY42",
+              11.78
+            ],
+            [
+              "PB15:3",
+              2.74
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.01,
+            "A": 0.54,
+            "FL11": 0.82,
+            "LED-B4": 0.68
+          },
+          "pass_probability": 0.82,
+          "cost_pct": 93.7,
+          "carbon_pct": 12.0,
+          "trials": 1,
+          "passed": true
+        },
+        "carbon": {
+          "recipe": [
+            [
+              "PW6",
+              57.86
+            ],
+            [
+              "PY184",
+              27.63
+            ],
+            [
+              "PY42",
+              11.77
+            ],
+            [
+              "PB15:3",
+              2.74
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.03,
+            "A": 0.57,
+            "FL11": 0.79,
+            "LED-B4": 0.68
+          },
+          "pass_probability": 0.82,
+          "cost_pct": 92.9,
+          "carbon_pct": 11.9,
+          "trials": 1,
+          "passed": true
+        },
+        "closest": {
+          "recipe": [
+            [
+              "PW6",
+              54.96
+            ],
+            [
+              "PY184",
+              40.53
+            ],
+            [
+              "PB15:3",
+              2.28
+            ],
+            [
+              "PO73",
+              2.22
+            ]
+          ],
+          "viable": true,
+          "de": {
+            "D65": 0.01,
+            "A": 1.25,
+            "FL11": 0.33,
+            "LED-B4": 1.62
+          },
+          "pass_probability": 0.71,
+          "cost_pct": 163.8,
+          "carbon_pct": 28.5,
+          "trials": 2,
+          "passed": true
+        }
+      }
+    },
+    {
+      "key": "cobalt_sky",
+      "name": "Cobalt sky",
+      "replaced": [
+        "cobalt_blue"
+      ],
+      "by_priority": {
+        "cost": {
+          "recipe": [
+            [
+              "PW6",
+              93.99
+            ],
+            [
+              "PB29",
+              5.73
+            ],
+            [
+              "PB15:3",
+              0.28
+            ]
+          ],
+          "viable": false,
+          "de": {
+            "D65": 0.37,
+            "A": 4.16,
+            "FL11": 5.59,
+            "LED-B4": 2.71
+          },
+          "pass_probability": 0.0,
+          "cost_pct": -54.4,
+          "carbon_pct": -13.2,
+          "trials": 6,
+          "passed": false
+        },
+        "carbon": {
+          "recipe": [
+            [
+              "PW6",
+              93.98
+            ],
+            [
+              "PB29",
+              5.73
+            ],
+            [
+              "PB15:3",
+              0.28
+            ]
+          ],
+          "viable": false,
+          "de": {
+            "D65": 0.37,
+            "A": 4.16,
+            "FL11": 5.58,
+            "LED-B4": 2.71
+          },
+          "pass_probability": 0.0,
+          "cost_pct": -54.4,
+          "carbon_pct": -13.2,
+          "trials": 6,
+          "passed": false
+        },
+        "closest": {
+          "recipe": [
+            [
+              "PW6",
+              93.98
+            ],
+            [
+              "PB29",
+              5.73
+            ],
+            [
+              "PB15:3",
+              0.28
+            ]
+          ],
+          "viable": false,
+          "de": {
+            "D65": 0.37,
+            "A": 4.16,
+            "FL11": 5.58,
+            "LED-B4": 2.71
+          },
+          "pass_probability": 0.0,
+          "cost_pct": -54.4,
+          "carbon_pct": -13.2,
+          "trials": 6,
+          "passed": false
+        }
+      }
+    }
+  ]
+}

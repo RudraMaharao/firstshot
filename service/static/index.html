@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FirstShot</title>
+  <meta name="description" content="Match a paint color with fewer pigments, in fewer lab trials, with safer materials.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/app.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='16' height='32' fill='%23c9572f'/%3E%3Crect x='16' width='16' height='32' fill='%23cf5a33'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <div class="brand">
+        <span class="mark" aria-hidden="true"><i></i><i></i></span>
+        <span class="name">FirstShot</span>
+      </div>
+      <p class="tagline">Match a paint color with fewer pigments, in fewer lab trials.</p>
+      <nav class="links" aria-label="Resources">
+        <a href="#how">How it works</a>
+        <a href="/docs">API</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="workbench" aria-label="Color matching">
+      <form class="controls" id="controls" autocomplete="off">
+        <h2>Target</h2>
+        <div class="seg" role="radiogroup" aria-label="Target type" data-name="kind">
+          <button type="button" role="radio" aria-checked="true" data-value="patch">Measured sample</button>
+          <button type="button" role="radio" aria-checked="false" data-value="hex">Screen color</button>
+          <button type="button" role="radio" aria-checked="false" data-value="lab">Lab value</button>
+        </div>
+
+        <div class="pane" data-pane="patch">
+          <p class="hint">ColorChecker patches, measured with a spectrophotometer. The match is checked under four lights.</p>
+          <div class="chips" id="patches" role="radiogroup" aria-label="ColorChecker patch"></div>
+          <p class="picked" id="patch-name"></p>
+        </div>
+        <div class="pane" data-pane="hex" hidden>
+          <p class="hint">A color from a screen or brand guide. Only daylight can be compared.</p>
+          <div class="hex-row">
+            <input type="color" id="hex-picker" value="#3a6ea5" aria-label="Pick a color">
+            <input type="text" id="hex-input" value="#3a6ea5" spellcheck="false" aria-label="Hex code" maxlength="7">
+          </div>
+        </div>
+        <div class="pane" data-pane="lab" hidden>
+          <p class="hint">CIELAB under D65, 10 degree observer.</p>
+          <div class="lab-row">
+            <label>L<input type="number" id="lab-l" value="52" min="0" max="100" step="0.1"></label>
+            <label>a<input type="number" id="lab-a" value="12" min="-128" max="128" step="0.1"></label>
+            <label>b<input type="number" id="lab-b" value="-30" min="-128" max="128" step="0.1"></label>
+          </div>
+        </div>
+
+        <h2>Priority</h2>
+        <div class="seg seg-2" role="radiogroup" aria-label="Priority" data-name="priority">
+          <button type="button" role="radio" aria-checked="true" data-value="fewest">Fewest pigments</button>
+          <button type="button" role="radio" aria-checked="false" data-value="cost">Lowest cost</button>
+          <button type="button" role="radio" aria-checked="false" data-value="carbon">Lowest carbon</button>
+          <button type="button" role="radio" aria-checked="false" data-value="closest">Closest match</button>
+        </div>
+        <p class="hint" id="priority-hint">Every recipe must pass first. Then the fewest pigments wins.</p>
+
+        <label class="check">
+          <input type="checkbox" id="exterior">
+          <span>Exterior grade pigments only</span>
+        </label>
+
+        <h2>Search</h2>
+        <div class="seg" role="radiogroup" aria-label="Search" data-name="mode">
+          <button type="button" role="radio" aria-checked="true" data-value="ai">AI shortlist</button>
+          <button type="button" role="radio" aria-checked="false" data-value="exhaustive">Every pigment set</button>
+        </div>
+        <p class="hint" id="mode-hint">A network picks the five most likely pigments and only their combinations are searched. If none passes, the search widens.</p>
+
+        <button type="submit" class="primary" id="run">Match color</button>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="results">
+        <div class="booth" id="booth">
+          <div class="lights" role="tablist" aria-label="Light source" id="lights"></div>
+          <div class="drawdown" id="drawdown">
+            <div class="half target" id="half-target"><span>Target</span></div>
+            <div class="half recipe" id="half-recipe"><span>Recipe</span></div>
+            <div class="sweep" aria-hidden="true"></div>
+          </div>
+          <p class="booth-note" id="booth-note"></p>
+        </div>
+
+        <div class="ticket-row">
+          <div class="ticket" id="ticket" aria-live="polite">
+            <h2>Recipe</h2>
+            <p class="empty">Choose a target and match it.</p>
+          </div>
+          <dl class="figures" id="figures"></dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="fewer" aria-labelledby="fewer-h">
+      <div class="block-head">
+        <h2 id="fewer-h">Fewer pigments</h2>
+        <p>The best recipe the search found for each number of colorants. Every extra pigment is another thing to stock, dispense and get wrong.</p>
+      </div>
+      <div class="table-wrap"><table class="data" id="count-table"><tbody><tr><td class="empty">No match yet.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="block" id="trials" aria-labelledby="trials-h">
+      <div class="block-head">
+        <h2 id="trials-h">Lab trials</h2>
+        <p>Each model proposes a recipe. A simulated lab sprays it, measures it and corrects it until the color passes under all four lights.</p>
+      </div>
+      <div id="trial-list" class="trial-list"><p class="empty">No match yet.</p></div>
+    </section>
+
+    <section class="block" id="materials" aria-labelledby="materials-h">
+      <div class="block-head">
+        <h2 id="materials-h">Safer materials</h2>
+        <p>Legacy colors that rely on lead, cadmium or cobalt, rebuilt from standard pigments and checked under the same four lights.</p>
+      </div>
+      <div class="reform">
+        <div class="legacy-list" id="legacy-list" role="radiogroup" aria-label="Legacy formula"></div>
+        <div class="reform-main">
+          <div class="seg seg-4" role="radiogroup" aria-label="Replacement priority" data-name="reform-priority">
+            <button type="button" role="radio" aria-checked="true" data-value="cost">Lowest cost</button>
+            <button type="button" role="radio" aria-checked="false" data-value="carbon">Lowest carbon</button>
+            <button type="button" role="radio" aria-checked="false" data-value="fewest">Fewest pigments</button>
+            <button type="button" role="radio" aria-checked="false" data-value="closest">Closest match</button>
+          </div>
+          <div id="reform-out" class="reform-out" aria-live="polite"><p class="empty">Pick a legacy formula.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="how" aria-labelledby="how-h">
+      <div class="block-head">
+        <h2 id="how-h">How it works</h2>
+        <p>Physics first, machine learning for what the physics gets wrong.</p>
+      </div>
+      <div class="how">
+        <ol class="steps">
+          <li><strong>Physics.</strong> Kubelka-Munk theory turns pigment concentrations into a reflectance curve, 400 to 700 nm. Colorimetry turns the curve into CIELAB under each light.</li>
+          <li><strong>Learned correction.</strong> An ensemble of neural networks learns what Kubelka-Munk misses from 14,000 historical lab panels. Disagreement between ensemble members is the model's uncertainty.</li>
+          <li><strong>Fine-tuning.</strong> When a new pigment lot arrives, one calibration panel per pigment re-fits each pigment's strength. Nothing else is retrained.</li>
+          <li><strong>Search.</strong> A second network reads the target's reflectance curve and shortlists the five most likely pigments. Concentrations are optimised for every combination of one to three of them at once. If nothing passes, the shortlist widens before the search gives up.</li>
+          <li><strong>Robust choice.</strong> Each candidate is scored across model members and pigment-lot variation. Only recipes likely to pass under all four lights are eligible.</li>
+        </ol>
+        <div class="metrics" id="metrics"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <p>FirstShot is a portfolio project. The lab is simulated and carbon figures are illustrative indices; production use would plug in measured pigment data and supplier carbon footprints.</p>
+    </div>
+  </footer>
+
+  <script src="/static/app.js" defer></script>
+</body>
+</html>
