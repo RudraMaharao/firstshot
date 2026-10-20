@@ -1,6 +1,6 @@
 # FirstShot
 
-**Live demo:** https://3z6ia3xn7e3ftz6xbflrlj6wca0yqfde.lambda-url.ap-south-1.on.aws/
+**Live demo:** https://hbcu32j6n5rwcm3rhebgqmo5xq0lsdfi.lambda-url.ap-south-1.on.aws/
 
 **Match a paint color with fewer pigments, in fewer lab trials, with safer materials.**
 
